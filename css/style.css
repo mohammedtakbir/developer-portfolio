@@ -18,7 +18,7 @@ h1{
 .peter-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +48,33 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience-item{
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px #ddd;
+    padding: 5px 20px;
+    
+}
+/* .frond-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+} */
+.experience-aria{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#frond-end{
+    border-left: 7px solid blue;
+}
+#back-end{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
